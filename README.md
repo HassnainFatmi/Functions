@@ -31,7 +31,7 @@ int lcm(int a, int b)
 	{
 		for (int i = b; i >= b; i--)
 		{
-			if (b / i == 0 || a / i == 0)
+			if (b / i == 0 && a / i == 0)
 			{
 				return i;
 			}
